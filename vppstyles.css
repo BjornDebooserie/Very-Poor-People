@@ -1,0 +1,164 @@
+﻿/*
+	Author: Bjorn
+*/
+
+body {
+	background-image: url('images/background.png');
+	background-color: black;
+	color: darkgray;
+	width: 1000px;
+	margin: auto;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 12pt; 
+	}
+h1 {
+	color: orange;
+	font-size: 16pt;
+	padding: 10px;
+	margin: 10px 0px 0px;
+	text-transform:uppercase;
+	}
+	
+h2 {
+	color: orange;
+	font-size: 14pt;
+	padding: 10px;
+	margin: 10px 0px 0px;
+	}
+
+h3 {
+	color: orange;
+	font-size: 12pt;
+	padding: 10px;
+	margin: 10px 0px 0px;
+	text-indent: 20px;
+	}
+	
+a:link { 
+	color: darkorange;
+	text-decoration: none;
+	}
+a:visited { 
+	color: darkorange;
+	text-decoration: none;
+	}
+a:hover { 
+	color: orange;
+	text-decoration: none;
+	}
+a:active { 
+	color: darkorange;
+	text-decoration: none;
+	}
+
+div {
+	background-color: rgba(0,0,0,0.60);
+	-ms-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	}
+header {
+	width: 1000px;
+	}
+	
+p img {
+	border: 1px solid black;
+	}
+
+section {
+	margin: 0px 10px 20px 0px; 
+	width: 690px;
+	float: left;
+	}
+	
+section p {
+	margin: 0px;
+	padding: 0px 20px 20px;
+	}
+	
+#rostertable {
+	font-size: 0.9em;
+	margin-top: -10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 680px;
+	height: 100px;
+	}
+	
+#rosterpic {
+	width: 100px;
+	}
+	
+#roster {
+	text-align: vertical;
+	width: 100px;
+	height: 100px;
+	}
+
+#rostertext1 {
+	padding: 2px;
+	padding-left: 10px;
+	width: 70px;
+	}	
+	
+#rostertext2 {
+	padding: 2px;
+	width: 170px;
+	}		
+	
+#forum {
+	text-align: center;
+	}
+	
+#server {
+	text-align: center;
+	}
+	
+#connect {
+	font-size: 10px;
+	margin-top: -25px;
+	text-align: center;
+	}
+	
+#serverinfo {
+	text-align: center;
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	width: 680px;
+	}
+	
+#sponsor {
+	text-align: center;
+	}
+	
+blockquote {
+	font-style: italic;
+	margin-top: -10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	}
+	
+aside {
+	margin: 0px 0px 20px 10px; 
+	width: 290px;
+	float: right;
+	}
+	
+aside p {
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+	}
+
+footer {
+	padding: 2px;
+	clear: both; 
+	font-size: 9pt;
+	color: grey;
+	width: 100%;
+	text-align: center;
+	float: center;
+	}
